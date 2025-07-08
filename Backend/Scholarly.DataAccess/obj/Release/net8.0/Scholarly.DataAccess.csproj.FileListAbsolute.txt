@@ -1,0 +1,15 @@
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Release\net8.0\Scholarly.DataAccess.deps.json
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Release\net8.0\Scholarly.DataAccess.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Release\net8.0\Scholarly.DataAccess.pdb
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Release\net8.0\Scholarly.Entity.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Release\net8.0\Scholarly.Entity.pdb
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarly.DataAccess.csproj.AssemblyReference.cache
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarly.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarly.DataAccess.AssemblyInfoInputs.cache
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarly.DataAccess.AssemblyInfo.cs
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarly.DataAccess.csproj.CoreCompileInputs.cache
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarl.5BC3DC71.Up2Date
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarly.DataAccess.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\refint\Scholarly.DataAccess.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\Scholarly.DataAccess.pdb
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Release\net8.0\ref\Scholarly.DataAccess.dll

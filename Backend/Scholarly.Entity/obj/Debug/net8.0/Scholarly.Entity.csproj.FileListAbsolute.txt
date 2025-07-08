@@ -1,0 +1,33 @@
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.deps.json
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.pdb
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfoInputs.cache
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfo.cs
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.csproj.CoreCompileInputs.cache
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\refint\Scholarly.Entity.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.pdb
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.Entity\obj\Debug\net8.0\ref\Scholarly.Entity.dll
+D:\nxt-3\nxt-backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.deps.json
+D:\nxt-3\nxt-backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.dll
+D:\nxt-3\nxt-backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.pdb
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfoInputs.cache
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfo.cs
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.csproj.CoreCompileInputs.cache
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.dll
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\refint\Scholarly.Entity.dll
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.pdb
+D:\nxt-3\nxt-backend\Scholarly.Entity\obj\Debug\net8.0\ref\Scholarly.Entity.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.deps.json
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.pdb
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfoInputs.cache
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfo.cs
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.csproj.CoreCompileInputs.cache
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\refint\Scholarly.Entity.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.pdb
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\ref\Scholarly.Entity.dll

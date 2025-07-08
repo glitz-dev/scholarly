@@ -1,0 +1,45 @@
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.deps.json
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.pdb
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.AssemblyInfoInputs.cache
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.AssemblyInfo.cs
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.csproj.CoreCompileInputs.cache
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\refint\Scholarly.DataAccess.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.pdb
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\ref\Scholarly.DataAccess.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.Entity.dll
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.Entity.pdb
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.csproj.AssemblyReference.cache
+C:\Natarajan\Source Codes\Scholarly\Scholarly.WebAPI\Scholarly.DataAccess\obj\Debug\net8.0\Scholarl.5BC3DC71.Up2Date
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.deps.json
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.pdb
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.Entity.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.Entity.pdb
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.csproj.AssemblyReference.cache
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.AssemblyInfoInputs.cache
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.AssemblyInfo.cs
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.csproj.CoreCompileInputs.cache
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarl.5BC3DC71.Up2Date
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\refint\Scholarly.DataAccess.dll
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.pdb
+D:\nxt-3\nxt-backend\Scholarly.DataAccess\obj\Debug\net8.0\ref\Scholarly.DataAccess.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.deps.json
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.DataAccess.pdb
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.Entity.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\bin\Debug\net8.0\Scholarly.Entity.pdb
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.csproj.AssemblyReference.cache
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.AssemblyInfoInputs.cache
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.AssemblyInfo.cs
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.csproj.CoreCompileInputs.cache
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarl.5BC3DC71.Up2Date
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\refint\Scholarly.DataAccess.dll
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\Scholarly.DataAccess.pdb
+D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.DataAccess\obj\Debug\net8.0\ref\Scholarly.DataAccess.dll
