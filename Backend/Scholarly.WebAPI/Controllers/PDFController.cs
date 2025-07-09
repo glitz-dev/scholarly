@@ -205,7 +205,8 @@ namespace Scholarly.WebAPI.Controllers
                         created_date = DateTime.UtcNow,
                         file_name = formval.author,
                         doi_number = formval.doi,
-                        is_public = new bool?(false)
+                        is_public = new bool?(false),
+                        status = true
                     };
                     _swbDBContext.tbl_pdf_uploads.Add(tBLPDFUPLOAD);
                     _swbDBContext.SaveChanges();
@@ -291,7 +292,7 @@ namespace Scholarly.WebAPI.Controllers
                 string str = _currentContext.UserId.ToString();
                 pDFs = (
                     from P in _swbDBContext.tbl_pdf_uploads
-                    where P.user_id == str && P.status != (bool?)true
+                    where P.user_id == str && P.status == (bool?)true
                     select new PDF()
                     {
                         PDFPath = P.pdf_saved_path,
@@ -303,7 +304,7 @@ namespace Scholarly.WebAPI.Controllers
                         DOINo = P.doi_number,
                         IsAccessed = (P.is_public == (bool?)true ? "Open Access" : "Closed Access"),
                         Author = P.author,
-                        Annotationscount = P.tbl_pdf_question_tags.Where<tbl_pdf_question_tags>((tbl_pdf_question_tags x) => x.pdf_uploaded_id == (int?)P.pdf_uploaded_id && x.isdeleted != (bool?)true).Count<tbl_pdf_question_tags>(),
+                        Annotationscount =10,// P.tbl_pdf_question_tags.Where<tbl_pdf_question_tags>((tbl_pdf_question_tags x) => x.pdf_uploaded_id == (int?)P.pdf_uploaded_id && x.isdeleted != (bool?)true).Count<tbl_pdf_question_tags>(),
                         AnnotatedQuestions = _swbDBContext.tbl_pdf_question_tags.Where<tbl_pdf_question_tags>((tbl_pdf_question_tags x) => x.pdf_uploaded_id == (int?)P.pdf_uploaded_id).Select<tbl_pdf_question_tags, Questions>((tbl_pdf_question_tags q) => new Questions()
                         {
                             Question = q.question,
@@ -312,7 +313,8 @@ namespace Scholarly.WebAPI.Controllers
                             dislikescount = (int?)_swbDBContext.tbl_annotation_ratings.Where<tbl_annotation_ratings>((tbl_annotation_ratings x) => x.question_id == (int?)q.question_id && x.is_liked == (bool?)false).Count<tbl_annotation_ratings>(),
                             Comments = _swbDBContext.tbl_comments.Where<tbl_comments>((tbl_comments x) => x.is_seen != (bool?)true && x.question_id == (int?)q.question_id).Select<tbl_comments, string>((tbl_comments x) => x.comment).FirstOrDefault<string>(),
                             CommentsCount = (int?)_swbDBContext.tbl_comments.Where<tbl_comments>((tbl_comments x) => x.is_seen != (bool?)true && x.question_id == (int?)q.question_id).Select<tbl_comments, string>((tbl_comments x) => x.comment).Count<string>()
-                        }).ToList<Questions>()
+                        })
+                        .ToList<Questions>()
                     }).ToList<PDF>();
             }
             catch (Exception exception)
