@@ -9,6 +9,13 @@ namespace Scholarly.WebAPI.Helper
 {
     public class Common
     {
+        public enum Gender
+        {
+            Unknown, // 0
+            Male,    // 1
+            Female,  // 2
+            Other    // 3
+        }
         public static CurrentContext GetCurrentContext(ClaimsIdentity identity)
         {
             var currentContext = new CurrentContext();

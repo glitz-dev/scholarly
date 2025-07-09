@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Scholarly.DataAccess;
 using Scholarly.Entity;
+using Scholarly.WebAPI.Helper;
 using Scholarly.WebAPI.Model;
 
 namespace Scholarly.WebAPI.DataAccess
@@ -30,7 +31,7 @@ namespace Scholarly.WebAPI.DataAccess
                 current_location = user.CurrentLocation,
                 current_position = user.CurrentPosition,
                 university = user.University,
-                //gender=user.Gender
+                gender = (short)Enum.Parse(typeof(Common.Gender), user.Gender, true)
             };
             swbDBContext.tbl_users.Add(tblUser);
             await swbDBContext.SaveChangesAsync();

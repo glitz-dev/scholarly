@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NLog;
+using SautinSoft;
 using Scholarly.DataAccess;
 using Scholarly.Entity;
+using Scholarly.WebAPI.DataAccess;
 using Scholarly.WebAPI.Helper;
 using Scholarly.WebAPI.Model;
 using System.Net;
 using System.Security.Claims;
-using System.Text.RegularExpressions;
 
 namespace Scholarly.WebAPI.Controllers
 {
@@ -20,12 +22,14 @@ namespace Scholarly.WebAPI.Controllers
         private readonly IConfiguration _config;
         private readonly IPDFHelper _PDFHelper;
         public CurrentContext _currentContext;
+        private readonly IPdfDa _IPdfDa;
         private static Logger _logger = LogManager.GetCurrentClassLogger();
-        public PDFController(IConfiguration configuration, SWBDBContext swbDBContext, IPDFHelper pDFHelper, IHttpContextAccessor httpContextAccessor)
+        public PDFController(IConfiguration configuration, SWBDBContext swbDBContext, IPDFHelper pDFHelper, IPdfDa iPdfDa, IHttpContextAccessor httpContextAccessor)
         {
             _config = configuration;
             _swbDBContext = swbDBContext;
             _PDFHelper = pDFHelper;
+            _IPdfDa = iPdfDa;
             _currentContext = Common.GetCurrentContext(httpContextAccessor.HttpContext.User.Identity as ClaimsIdentity);
         }
 
@@ -33,117 +37,23 @@ namespace Scholarly.WebAPI.Controllers
         [Route("addgroup")]
         public ActionResult AddGroup(string UserId, string GroupName, string TagsText)
         {
-            bool flag = false;
-
-            try
-            {
-                if ((
-                    from x in _swbDBContext.tbl_groups
-                    where x.group_name == GroupName && x.created_by == UserId
-                    select x.group_name).Count<string>() != 0)
-                {
-                    flag = false;
-                }
-                else
-                {
-                    string[] strArrays = TagsText.Split(new char[] { ',' });
-
-                    tbl_groups tBLGroup = new tbl_groups()
-                    {
-                        user_id = UserId,
-                        group_name = GroupName,
-                        created_by = UserId,
-                        created_date = DateTime.UtcNow,
-                        updated_date = DateTime.UtcNow,
-                    };
-                    _swbDBContext.tbl_groups.Add(tBLGroup);
-                    _swbDBContext.SaveChanges();
-                    int groupID = tBLGroup.group_id;
-                    string[] strArrays1 = strArrays;
-                    for (int i = 0; i < (int)strArrays1.Length; i++)
-                    {
-                        string str = strArrays1[i];
-                        var tBLGroupsEmail = new tbl_groups_emails()
-                        {
-                            user_id = UserId,
-                            email = str,
-                            created_by = UserId,
-                            created_date = DateTime.UtcNow,
-                            updated_date = DateTime.UtcNow,
-                            group_id = new int?(groupID)
-                        };
-                        _swbDBContext.tbl_groups_emails.Add(tBLGroupsEmail);
-                        _swbDBContext.SaveChanges();
-                        flag = true;
-                    }
-
-                }
-            }
-            catch (Exception exception)
-            {
-                throw exception;
-            }
-            return Ok(flag);
+            return Ok(_IPdfDa.AddGroup(_swbDBContext, _logger, UserId, GroupName, TagsText));
         }
 
         [HttpGet]
         [Route("loadgroups")]
         public ActionResult LoadGroups(string UserId)
         {
-            List<Groups> groups = new List<Groups>();
-            try
-            {
-                groups = (
-                    from x in (
-                        from q in _swbDBContext.tbl_groups
-                        where q.status != (bool?)true && q.user_id == UserId
-                        select new Groups()
-                        {
-                            GroupId = (int?)q.group_id,
-                            GroupName = q.group_name,
-                            Members = (int?)_swbDBContext.tbl_groups_emails.Where<tbl_groups_emails>((tbl_groups_emails x) => x.group_id == (int?)q.group_id && x.status != (bool?)true).Count<tbl_groups_emails>(),
-                            Groupmails = _swbDBContext.tbl_groups_emails.Where<tbl_groups_emails>((tbl_groups_emails x) => x.group_id == (int?)q.group_id && x.status != (bool?)true).Select<tbl_groups_emails, GroupEmails>((tbl_groups_emails a) => new GroupEmails()
-                            {
-                                Email = a.email,
-                                GroupEmailId = (int?)a.group_email_id
-                            }).ToList<GroupEmails>()
-                        }).ToList<Groups>()
-                    where x.GroupName != ""
-                    select x).ToList<Groups>();
-            }
-            catch (Exception exception)
-            {
-                throw exception;
-            }
-            return Ok(groups);
+
+            return Ok(_IPdfDa.LoadGroups(_swbDBContext, _logger, UserId));
         }
 
         [HttpPost]
         [Route("addnewmail")]
         public ActionResult Addnewemail(string UserId, string newEmail, int GroupId)
         {
-            bool flag = false;
-            try
-            {
 
-                var tBLGroupsEmail = new tbl_groups_emails()
-                {
-                    user_id = UserId,
-                    email = newEmail,
-                    created_by = UserId,
-                    created_date = DateTime.UtcNow,
-                    updated_date = DateTime.UtcNow,
-                    group_id = new int?(GroupId)
-                };
-                _swbDBContext.tbl_groups_emails.Add(tBLGroupsEmail);
-                _swbDBContext.SaveChanges();
-                flag = true;
-            }
-            catch (Exception exception)
-            {
-                return Ok(exception.Message);
-            }
-            return Ok(flag);
+            return Ok(_IPdfDa.AddNewEmail(_swbDBContext, _logger, UserId, newEmail, GroupId));
         }
         [HttpGet]
         [Route("contactlistpdf2")]
@@ -172,136 +82,38 @@ namespace Scholarly.WebAPI.Controllers
 
         [HttpGet]
         [Route("getpdfpath")]
-        public ActionResult GetPDFPath(int? PathId)
+        public ActionResult GetPDFPath(int PathId)
         {
 
-            PDF? pDF = new PDF();
-            try
-            {
-                pDF = (
-                    from x in _swbDBContext.tbl_pdf_uploads
-                    where (int?)x.pdf_uploaded_id == PathId
-                    select x into q
-                    select new PDF()
-                    {
-                        PDFPath = q.pdf_saved_path,
-                        IsAccessed = (q.is_public == (bool?)true ? "Open Access" : "Closed Access")
-                    }).FirstOrDefault<PDF>();
-            }
-            catch (Exception exception)
-            {
-                throw exception;
-            }
-            return Ok(pDF);
+            return Ok(_IPdfDa.GetPDFPath(_swbDBContext, _logger, PathId));
 
-            //JsonResult nullable = base.Json(pDF, JsonRequestBehavior.AllowGet);
-            //nullable.MaxJsonLength = new int?(2147483647);
-            //return nullable;
         }
         [HttpPost]
         [Route("deleteemail")]
         public ActionResult deleteemail(string UserId, int GroupEmailId)
         {
-            bool flag = false;
-            try
-            {
-
-                tbl_groups_emails? nullable = (
-                    from x in _swbDBContext.tbl_groups_emails
-                    where x.group_email_id == GroupEmailId
-                    select x).FirstOrDefault<tbl_groups_emails>();
-                if (nullable != null)
-                {
-                    nullable.status = new bool?(true);
-                    nullable.updated_by = UserId;
-                    nullable.updated_date = DateTime.UtcNow;
-                    _swbDBContext.SaveChanges();
-                }
-            }
-            catch (Exception exception)
-            {
-                throw exception;
-            }
-            return Ok(flag);
+            return Ok(_IPdfDa.DeleteEmail(_swbDBContext, _logger, UserId, GroupEmailId));
         }
 
         [HttpPost]
         [Route("deletegroup")]
         public ActionResult deleteGroup(string UserId, int GroupId)
         {
-            bool flag = false;
-            try
-            {
-
-                tbl_groups? nullable = (
-                    from x in _swbDBContext.tbl_groups
-                    where x.group_id == GroupId
-                    select x).FirstOrDefault<tbl_groups>();
-                if (nullable != null)
-                {
-                    nullable.status = new bool?(true);
-                    nullable.updated_by = UserId;
-                    nullable.updated_date = DateTime.UtcNow;
-                    _swbDBContext.SaveChanges();
-                    flag = true;
-                }
-            }
-            catch (Exception exception)
-            {
-                throw exception;
-            }
-            return Ok(flag);
+            return Ok(_IPdfDa.DeleteGroup(_swbDBContext, _logger, UserId, GroupId));
         }
 
         [HttpPost]
         [Route("deletepdf")]
         public ActionResult DeletePdf(int UId)
         {
-            bool flag = false;
-            try
-            {
-
-                tbl_pdf_uploads? nullable = (
-                    from x in _swbDBContext.tbl_pdf_uploads
-                    where x.pdf_uploaded_id == UId
-                    select x).FirstOrDefault<tbl_pdf_uploads>();
-                if (nullable != null)
-                {
-                    nullable.status = new bool?(true);
-                    _swbDBContext.SaveChanges();
-                    flag = true;
-                }
-
-            }
-            catch (Exception exception)
-            {
-                throw exception;
-            }
-            return Ok(flag);
+            return Ok(_IPdfDa.DeletePdf(_swbDBContext, _logger, UId));
         }
 
         [HttpPost]
         [Route("deletequestion")]
         public ActionResult DeleteQuestion(int QID)
         {
-            bool flag = false;
-            try
-            {
-                tbl_pdf_question_tags? result = _swbDBContext.tbl_pdf_question_tags.FirstOrDefault(x => x.question_id == QID);
-                if (result != null)
-                {
-                    result.isdeleted = new bool?(true);
-                    _swbDBContext.SaveChanges();
-                    flag = true;
-                }
-
-
-            }
-            catch (Exception exception)
-            {
-                throw exception;
-            }
-            return Ok(flag);
+            return Ok(_IPdfDa.DeleteQuestion(_swbDBContext, _logger, QID));
         }
         [HttpGet]
         [Route("editpdf")]
@@ -354,7 +166,7 @@ namespace Scholarly.WebAPI.Controllers
 
         [HttpPost]
         [Route("savefile")]
-        public ActionResult SaveUploadedFile([FromForm] FileDetail formval) //,[FromBody],
+        public ActionResult SaveUploadedFile([FromForm] FileDetail formval) //,[FromBody], 
         {
             ActionResult action;
             string result = "";
@@ -380,7 +192,7 @@ namespace Scholarly.WebAPI.Controllers
                 {
                     string str3 = Helper.Common.CreateDownloadFolders(_config.GetSection("AppSettings")["DownloadFolderPath"], _logger);
                     string str4 = string.Concat(formval.article, ".pdf");
-                    string str5 = this.DownloadPdf(formval.url, Path.Combine(str3, str4)); //""; 
+                    string str5 = ""; //this.DownloadPdf(formval.url, Path.Combine(str3, str4));
 
                     var tBLPDFUPLOAD = new tbl_pdf_uploads()
                     {
@@ -430,9 +242,7 @@ namespace Scholarly.WebAPI.Controllers
                                 author = formval.author,
                                 created_by = "1",
                                 created_date = DateTime.UtcNow,
-                                file_name = fileName,
-                                is_public=true,
-                                status=true
+                                file_name = fileName
                             };
                             _swbDBContext.tbl_pdf_uploads.Add(tBLPDFUPLOAD1);
                             _swbDBContext.SaveChanges();
@@ -453,5 +263,98 @@ namespace Scholarly.WebAPI.Controllers
             }
             return Ok(result);
         }
+
+        [HttpGet]
+        [Route("getsearchvalues")]
+        public ActionResult getsearchvalues(string searchtext, string loginuserId)
+        {
+            DbSet<tbl_pdf_uploads> tBLPDFUPLOADS = _swbDBContext.tbl_pdf_uploads;
+            return Ok(tBLPDFUPLOADS);
+        }
+
+
+        [HttpGet]
+        [Route("tunseencomment")]
+        public ActionResult GetUnSeenComments(int QuestionId)
+        {
+            return Ok("Not yet implemented");
+        }
+
+
+        [HttpGet]
+        [Route("uploadedpdfslist")]
+        public ActionResult GetUploadedPDFsList()
+        {
+            List<PDF> pDFs = new List<PDF>();
+            try
+            {
+                string str = _currentContext.UserId.ToString();
+                pDFs = (
+                    from P in _swbDBContext.tbl_pdf_uploads
+                    where P.user_id == str && P.status != (bool?)true
+                    select new PDF()
+                    {
+                        PDFPath = P.pdf_saved_path,
+                        PDFUploadedId = (int?)P.pdf_uploaded_id,
+                        CreatedDate = P.created_date,
+                        FileName = P.file_name,
+                        PUBMEDId = P.pub_med_id,
+                        Article = P.article,
+                        DOINo = P.doi_number,
+                        IsAccessed = (P.is_public == (bool?)true ? "Open Access" : "Closed Access"),
+                        Author = P.author,
+                        Annotationscount = P.tbl_pdf_question_tags.Where<tbl_pdf_question_tags>((tbl_pdf_question_tags x) => x.pdf_uploaded_id == (int?)P.pdf_uploaded_id && x.isdeleted != (bool?)true).Count<tbl_pdf_question_tags>(),
+                        AnnotatedQuestions = _swbDBContext.tbl_pdf_question_tags.Where<tbl_pdf_question_tags>((tbl_pdf_question_tags x) => x.pdf_uploaded_id == (int?)P.pdf_uploaded_id).Select<tbl_pdf_question_tags, Questions>((tbl_pdf_question_tags q) => new Questions()
+                        {
+                            Question = q.question,
+                            QuestionId = (int?)q.question_id,
+                            likescount = (int?)_swbDBContext.tbl_annotation_ratings.Where<tbl_annotation_ratings>((tbl_annotation_ratings x) => x.question_id == (int?)q.question_id && x.is_liked == (bool?)true).Count<tbl_annotation_ratings>(),
+                            dislikescount = (int?)_swbDBContext.tbl_annotation_ratings.Where<tbl_annotation_ratings>((tbl_annotation_ratings x) => x.question_id == (int?)q.question_id && x.is_liked == (bool?)false).Count<tbl_annotation_ratings>(),
+                            Comments = _swbDBContext.tbl_comments.Where<tbl_comments>((tbl_comments x) => x.is_seen != (bool?)true && x.question_id == (int?)q.question_id).Select<tbl_comments, string>((tbl_comments x) => x.comment).FirstOrDefault<string>(),
+                            CommentsCount = (int?)_swbDBContext.tbl_comments.Where<tbl_comments>((tbl_comments x) => x.is_seen != (bool?)true && x.question_id == (int?)q.question_id).Select<tbl_comments, string>((tbl_comments x) => x.comment).Count<string>()
+                        }).ToList<Questions>()
+                    }).ToList<PDF>();
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
+
+            return Ok(pDFs);
+        }
+
+        [HttpGet]
+        [Route("pdftohtml")]
+        public ActionResult? PDFTOHTML(int? Path)
+        {
+            try
+            {
+                if(_swbDBContext.tbl_pdf_uploads.Any(p => p.pdf_uploaded_id == Path))
+                {
+                    var result = _swbDBContext.tbl_pdf_uploads.FirstOrDefault(p => p.pdf_uploaded_id == Path);
+                    if (result != null && !string.IsNullOrEmpty(result.pdf_saved_path))
+                    {
+                        System.IO.Path.ChangeExtension(result.pdf_saved_path, ".html");
+                        PdfFocus pdfFocu = new PdfFocus();
+                        pdfFocu.HtmlOptions.IncludeImageInHtml = true;
+                        pdfFocu.HtmlOptions.Title = "Simple text";
+                        pdfFocu.OpenPdf(result.pdf_saved_path);
+                        string html = "";
+                        if (pdfFocu.PageCount > 0)
+                        {
+                            html = pdfFocu.ToHtml();
+                        }
+                        return base.Content(html);
+                    }
+                }
+            }
+            catch (Exception exception)
+            {
+                throw;
+            }
+            return null;
+        }
     }
+
 }
+

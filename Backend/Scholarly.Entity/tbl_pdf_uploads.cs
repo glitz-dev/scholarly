@@ -45,7 +45,7 @@ namespace Scholarly.Entity
             set;
         }
 
-        public string html_content
+        public string? html_content
         {
             get;
             set;
@@ -86,6 +86,11 @@ namespace Scholarly.Entity
             get;
             set;
         }
- 
+        public virtual ICollection<tbl_pdf_question_tags>? tbl_pdf_question_tags
+        {
+            get;
+            set;
+        }
+
     }
 }

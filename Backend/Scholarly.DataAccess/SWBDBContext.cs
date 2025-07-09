@@ -36,7 +36,16 @@ namespace Scholarly.DataAccess
             get;
             set;
         }
-        
+        public DbSet<tbl_annotation_ratings> tbl_annotation_ratings
+        {
+            get;
+            set;
+        }
+        public DbSet<tbl_comments> tbl_comments
+        {
+            get;
+            set;
+        }
         public SWBDBContext(DbContextOptions<SWBDBContext> options) : base(options)
         {
         }

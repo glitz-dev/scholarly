@@ -70,7 +70,7 @@ namespace Scholarly.Entity
             set;
         }
 
-        public string? specialisation
+        public string? specialization
         {
             get;
             set;
