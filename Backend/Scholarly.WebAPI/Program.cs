@@ -32,6 +32,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<SWBDBContext>(option => option.UseNpgsql(configuration["ConnectionStrings:DefaultConnection"]));
 builder.Services.AddSingleton<IJWTAuthenticationManager>(new JWTAuthenticationManager(configuration));
 builder.Services.AddTransient<IPDFHelper, PDFHelper>();
+builder.Services.AddTransient<IPdfDa, PdfDa>();
 builder.Services.AddTransient<IUserDa,UserDa>();
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>
