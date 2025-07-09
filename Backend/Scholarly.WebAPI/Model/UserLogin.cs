@@ -57,13 +57,13 @@ namespace Scholarly.WebAPI.Model
             set;
         }
 
-        public string? Specialzation
+        public string? Specialization
         {
             get;
             set;
         }
 
-        public int? SpecialzationId
+        public int? SpecializationId
         {
             get;
             set;

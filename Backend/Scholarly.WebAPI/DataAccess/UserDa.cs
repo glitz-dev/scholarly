@@ -94,8 +94,8 @@ namespace Scholarly.WebAPI.DataAccess
                     from q in swbDBContext.tbl_user_specialization
                     select new UserLogin()
                     {
-                        SpecialzationId = q.specialization_id,
-                        Specialzation = q.specialization
+                        SpecializationId = q.specialization_id,
+                        Specialization = q.specialization
                     }).ToList();
 
             return userLogins;
@@ -112,19 +112,19 @@ namespace Scholarly.WebAPI.DataAccess
                         University = q.university,
                         FirstName = q.firstname,
                         LastName = q.lastname,
-                        SpecialzationId = q.specialization_id,
+                        SpecializationId = q.specialization_id,
                         CurrentPosition = q.current_position,
                         CurrentLocation = q.current_location,
                         EmailID = q.emailid,
-                        Specialzation = ""
+                        Specialization = ""
                     }).FirstOrDefaultAsync();
 
-            if (userLogin != null && userLogin.SpecialzationId > 0)
+            if (userLogin != null && userLogin.SpecializationId > 0)
             {
-                var result =await swbDBContext.tbl_user_specialization.FirstOrDefaultAsync(p => p.specialization_id == userLogin.SpecialzationId);
+                var result =await swbDBContext.tbl_user_specialization.FirstOrDefaultAsync(p => p.specialization_id == userLogin.SpecializationId);
                 if(result != null)
                 {
-                    userLogin.Specialzation = result.specialization;
+                    userLogin.Specialization = result.specialization;
                 }
 
             }

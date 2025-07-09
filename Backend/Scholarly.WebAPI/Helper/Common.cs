@@ -9,7 +9,7 @@ namespace Scholarly.WebAPI.Helper
 {
     public class Common
     {
-        public enum Gender
+        public enum Gender:short
         {
             Unknown, // 0
             Male,    // 1

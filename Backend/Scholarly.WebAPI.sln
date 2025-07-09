@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scholarly.WebAPI", "Scholarly.WebAPI\Scholarly.WebAPI.csproj", "{E429F907-8F3E-432A-8A72-C0600B34CB98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scholarly.WebAPI", "Scholarly.WebAPI\Scholarly.WebAPI.csproj", "{E429F907-8F3E-432A-8A72-C0600B34CB98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scholarly.Entity", "Scholarly.Entity\Scholarly.Entity.csproj", "{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scholarly.Entity", "Scholarly.Entity\Scholarly.Entity.csproj", "{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scholarly.DataAccess", "Scholarly.DataAccess\Scholarly.DataAccess.csproj", "{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scholarly.DataAccess", "Scholarly.DataAccess\Scholarly.DataAccess.csproj", "{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{32F2BBDD-3563-4F02-BE59-A5A26C7C0DE0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
