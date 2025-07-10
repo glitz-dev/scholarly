@@ -49,11 +49,11 @@ namespace Scholarly.WebAPI.DataAccess
             {
                tbl_pdf_uploads? nullable = (
                     from x in swbDBContext.tbl_pdf_uploads
-                    where x.pdf_uploaded_id == UId
+                    where x.pdf_uploaded_id == UId && x.status == (bool?) true
                     select x).FirstOrDefault();
                 if (nullable != null)
                 {
-                    nullable.status = new bool?(true);
+                    nullable.status = new bool?(false);
                     swbDBContext.SaveChanges();
                     flag = true;
                 }
