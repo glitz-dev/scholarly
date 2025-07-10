@@ -128,15 +128,12 @@ namespace Scholarly.WebAPI.Controllers
                 if (result != null)
                 {
                     pDF = new PDF();
-                    pDF.PDFUploadedId = (int?)result.pdf_uploaded_id;
+                   // pDF.PDFUploadedId = (int?)result.pdf_uploaded_id;
                     pDF.DOINo = result.doi_number;
                     pDF.PUBMEDId = result.pub_med_id;
                     pDF.Article = result.article;
                     pDF.Author = result.author;
-
-
                 }
-
             }
             catch (Exception exception)
             {
@@ -166,7 +163,7 @@ namespace Scholarly.WebAPI.Controllers
 
         [HttpPost]
         [Route("savefile")]
-        public ActionResult SaveUploadedFile([FromForm] FileDetail formval) //,[FromBody], 
+        public async Task<IActionResult> SaveUploadedFile([FromForm] FileDetail formval) //,[FromBody], 
         {
             ActionResult action;
             string result = "";
@@ -192,7 +189,7 @@ namespace Scholarly.WebAPI.Controllers
                 {
                     string str3 = Helper.Common.CreateDownloadFolders(_config.GetSection("AppSettings")["DownloadFolderPath"], _logger);
                     string str4 = string.Concat(formval.article, ".pdf");
-                    string str5 = ""; //this.DownloadPdf(formval.url, Path.Combine(str3, str4));
+                    string str5 = this.DownloadPdf(formval.url, Path.Combine(str3, str4));
 
                     var tBLPDFUPLOAD = new tbl_pdf_uploads()
                     {
@@ -215,6 +212,8 @@ namespace Scholarly.WebAPI.Controllers
                 }
                 else if (formval.file != null && formval.file.Length > 0)
                 {
+                    string fileLength = formval.file.Length.ToString();
+
                     string fileName = Path.GetFileName(formval.file.FileName);
                     string str6 = Helper.Common.CreateDownloadFolders(_config.GetSection("AppSettings")["DownloadFolderPath"], _logger); ;
                     string str7 = fileName;
@@ -228,7 +227,7 @@ namespace Scholarly.WebAPI.Controllers
                         {
                             using (var fileContentStream = new MemoryStream())
                             {
-                                formval.file.CopyToAsync(fileContentStream);
+                                await formval.file.CopyToAsync(fileContentStream);
                                 fileContentStream.Position = 0; // Rewind!
                                 System.IO.File.WriteAllBytes(Path.Combine(str6, fileName), fileContentStream.ToArray());
                             }
@@ -243,7 +242,8 @@ namespace Scholarly.WebAPI.Controllers
                                 author = formval.author,
                                 created_by = "1",
                                 created_date = DateTime.UtcNow,
-                                file_name = fileName
+                                file_name = fileName,
+                                status = true
                             };
                             _swbDBContext.tbl_pdf_uploads.Add(tBLPDFUPLOAD1);
                             _swbDBContext.SaveChanges();
