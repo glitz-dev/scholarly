@@ -57,29 +57,16 @@ const PdfList = () => {
       form.append('file', formData.file);
 
       const result = await dispatch(saveFile({ formData: form, authToken: user?.token }));
-      // if (result?.payload) {
-      //   showToast({
-      //     title: result?.payload,
-      //     variant: "success"
-      //   })
-      // }
-      if (result?.payload) {
-        const newCollection = {
-          id: Date.now().toString(),
-          article: formData?.article,
-          pubmedid: formData?.pubmedid,
-          author: formData?.author,
-          doi: formData?.doi,
-          userId: userId,
-          pdfFile: formData?.file,
-          createdAt: new Date().toISOString(),
-        };
-        setListOfCollections((prevCollections) => Array.isArray(prevCollections) ? [...prevCollections, newCollection] : [newCollection])
-        dispatch(getCollections({ userId, authToken: user?.token }))
+      console.log('...result', result);
+      if (result?.meta?.requestStatus
+        === 'fulfilled') {
         showToast({
-          title: "Collection uploaded successfully!",
-          variant: "success",
-        });
+          title: 'File Uploaded Successfully',
+          variant: "success"
+        })
+        dispatch(getCollections({ authToken: user?.token })).then((result) => {
+          setLoadingCollections(false)
+        })
         if (fileInputRef.current) {
           fileInputRef.current.value = ''; // resets the file input
         }
@@ -94,6 +81,7 @@ const PdfList = () => {
           doi: '',
           userId: ''
         })
+
       } else {
         showToast({
           title: "Upload failed",
@@ -162,12 +150,12 @@ const PdfList = () => {
   useEffect(() => {
     setShowActions(true)
     setLoadingCollections(true)
-    if (user?.token && userId) {
-      dispatch(getCollections({ userId, authToken: user?.token })).then((result) => {
+    if (user?.token) {
+      dispatch(getCollections({ authToken: user?.token })).then((result) => {
         setLoadingCollections(false)
       })
     }
-  }, [dispatch, userId, user?.token, showActions])
+  }, [dispatch, user?.token, showActions])
 
   useEffect(() => {
     if (Array.isArray(collectionList)) {
@@ -178,11 +166,11 @@ const PdfList = () => {
   useEffect(() => {
     setLoadingCollections(true)
   }, [])
-
+  console.log('....listOfCollections', listOfCollections)
   return (
     <div className="flex flex-col gap-5 h-full bg-white dark:bg-gray-800 dark:text-white">
       {/* Upload PDF */}
-        <UploadPdf setFile={setFile} fileUrl={fileUrl} setFileUrl={setFileUrl} formData={formData} setFormData={setFormData} isSubmitting={isSubmitting} fileInputRef={fileInputRef} handleUploadCollection={handleUploadCollection} />
+      <UploadPdf setFile={setFile} fileUrl={fileUrl} setFileUrl={setFileUrl} formData={formData} setFormData={setFormData} isSubmitting={isSubmitting} fileInputRef={fileInputRef} handleUploadCollection={handleUploadCollection} />
       {/* Search PDF */}
       {/* <div className="group border-l-4 border-transparent bg-white shadow-lg flex items-center px-7 py-10 md:py-7 lg:py-7 dark:bg-gray-900 rounded-lg">
         <SearchPdf handleSearchCollection={handleSearchCollection} setSearchingCollections={setSearchingCollections} searchedCollectionList={searchedCollectionList} setSearchedCollectionList={setSearchedCollectionList} searchingCollections={searchingCollections} />
@@ -197,7 +185,7 @@ const PdfList = () => {
         ) : (
           listOfCollections && listOfCollections.length > 0 ? (
             listOfCollections.map((collection, index) => (
-              <Pdfcard key={collection.id || index} article={collection.article} author={collection.author} doi={collection.doi} id={collection.id} pdf={collection.pdfFile} pubmedId={collection.pubmedid} handleDeleteCollection={handleDeleteCollection} showActions={showActions} />
+              <Pdfcard key={index} id={collection.PDFUploadedId} article={collection.Article} author={collection.Author} doi={collection.DOINo} pdf={collection.PDFPath} pubmedId={collection.PUBMEDId} handleDeleteCollection={handleDeleteCollection} showActions={showActions} />
             ))
           ) : (
             <div>

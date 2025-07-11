@@ -68,7 +68,7 @@ const PdfCard = ({
 
   const handlePdfClick = () => {
     const pdfUrlEncoded = encodeURIComponent(pdf);
-    window.open(`/pdf-viewer/${id}?url=${pdfUrlEncoded}`, '_blank');
+    window.open(`https://scholarlyapi.glitzit.com/${pdfUrlEncoded}`, '_blank');
   };
 
   const toggleAccess = () => {
@@ -81,6 +81,8 @@ const PdfCard = ({
       variant: "info"
     });
   };
+
+  console.log('...pdfurl', pdf)
 
   return (
     <Card className="w-full mb-6 hover:shadow-lg  bg-gradient-r from-gray-100 to-gray-200 dark:bg-gray-800 dark:border-white">

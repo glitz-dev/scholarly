@@ -10,7 +10,7 @@ const initialState = {
 export const saveFile = createAsyncThunk('/pdf/savefile', async ({ formData, authToken }, { rejectWithValue }) => {
     try {
         const response = await axios.post(
-            `/api/mock/PDF/savefile`,
+            `/api/PDF/savefile`,
             formData,
             {
                 headers: {
@@ -25,15 +25,15 @@ export const saveFile = createAsyncThunk('/pdf/savefile', async ({ formData, aut
     }
 });
 
-export const getCollections = createAsyncThunk('/pdf/getcollections', async ({userId, authToken}, {rejectWithValue}) => {
+export const getCollections = createAsyncThunk('/pdf/getcollections', async ({authToken}, {rejectWithValue}) => {
     try {
-        const response = await axios.get(`/api/mock/PDF/getCollections?userId=${userId}`, {
+        const response = await axios.get(`/api/PDF/uploadedpdfslist`, {
             headers: {
                 Authorization: `Bearer ${authToken}`
             }
         })
         console.log('...response', response)
-        return response?.data?.data;
+        return response?.data;
     } catch (error) {
         return rejectWithValue(error.response?.data?.message || 'Can not fetch files');
     }
@@ -90,7 +90,6 @@ const collectionSlice = createSlice({
             state.isLoading = true
         }).addCase(saveFile.fulfilled, (state, action) => {
             state.isLoading = false;
-            state.collectionList = action.payload; // setting only for mock api
             state.error = null;
         }).addCase(saveFile.rejected, (state, action) => {
             state.isLoading = false;
