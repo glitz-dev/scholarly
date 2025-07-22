@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Scholarly.Entity
-build_property.ProjectDir = D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\
+build_property.ProjectDir = D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

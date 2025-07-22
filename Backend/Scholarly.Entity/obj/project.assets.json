@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
+      "projectUniqueName": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
       "projectName": "Scholarly.Entity",
-      "projectPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
+      "projectPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
       "packagesPath": "C:\\Users\\GLITZ-2\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\obj\\",
+      "outputPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GLITZ-2\\AppData\\Roaming\\NuGet\\NuGet.Config",

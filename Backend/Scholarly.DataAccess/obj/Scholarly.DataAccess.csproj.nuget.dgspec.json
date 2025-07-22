@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj": {}
+    "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj": {
+    "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
+        "projectUniqueName": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
         "projectName": "Scholarly.DataAccess",
-        "projectPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
+        "projectPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
         "packagesPath": "C:\\Users\\GLITZ-2\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\obj\\",
+        "outputPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GLITZ-2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj": {
-                "projectPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj"
+              "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj": {
+                "projectPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj": {
+    "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
+        "projectUniqueName": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
         "projectName": "Scholarly.Entity",
-        "projectPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
+        "projectPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj",
         "packagesPath": "C:\\Users\\GLITZ-2\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\obj\\",
+        "outputPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GLITZ-2\\AppData\\Roaming\\NuGet\\NuGet.Config",

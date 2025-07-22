@@ -1,79 +1,79 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\",
+  "WorkspaceRootPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{418C65DC-5F34-4890-ABFA-7C2361E2EBBB}|Solution Items{418C65DC-5F34-4890-ABFA-7C2361E2EBBB}|D:\\WorkingFolder\\Scholarly-GIT\\Backend\\.gitignore.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{418C65DC-5F34-4890-ABFA-7C2361E2EBBB}|Solution Items{418C65DC-5F34-4890-ABFA-7C2361E2EBBB}|solutionrelative:.gitignore.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkingFolder\\Scholary-github\\Backend\\.gitignore.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLITZ-2\\AppData\\Local\\Temp\\.vsdbgsrc\\1cc6d2a634203e0de348b5980fee97b87977d5074b436e24ff974f8438968be4\\ActionMethodExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\model\\filedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\model\\filedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\model\\filedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\helper\\pdfhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\helper\\pdfhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\helper\\pdfhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLITZ-2\\AppData\\Local\\Temp\\.vsdbgsrc\\abba077035e90a395828270c0dc682162f8b63e531f6195695ad9df77d930690\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\dataaccess\\userda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\dataaccess\\userda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\dataaccess\\userda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.entity\\tbl_groups_emails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.entity\\tbl_groups_emails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|solutionrelative:scholarly.entity\\tbl_groups_emails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.entity\\tbl_groups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.entity\\tbl_groups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|solutionrelative:scholarly.entity\\tbl_groups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\model\\groups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\model\\groups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\model\\groups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\model\\groupemails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\model\\groupemails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\model\\groupemails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.entity\\tbl_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.entity\\tbl_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|solutionrelative:scholarly.entity\\tbl_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\helper\\ijwtauthenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\helper\\ijwtauthenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\helper\\ijwtauthenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -83,27 +83,27 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLITZ-2\\AppData\\Local\\Temp\\.vsdbgsrc\\06d671fa943ce0dca2713eb544d18c5fc46f7ace68d3e93a5637132b75ee5260\\ThreadPoolWorkQueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}|Scholarly.DataAccess\\Scholarly.DataAccess.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.dataaccess\\swbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}|Scholarly.DataAccess\\Scholarly.DataAccess.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.dataaccess\\swbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}|Scholarly.DataAccess\\Scholarly.DataAccess.csproj|solutionrelative:scholarly.dataaccess\\swbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.entity\\tbl_user_specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.entity\\tbl_user_specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E18FE6-71D0-40CC-AC64-AF3F88E61FFD}|Scholarly.Entity\\Scholarly.Entity.csproj|solutionrelative:scholarly.entity\\tbl_user_specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\scholarly.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\scholarly.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\scholarly.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}|Scholarly.DataAccess\\Scholarly.DataAccess.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.dataaccess\\scholarly.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}|Scholarly.DataAccess\\Scholarly.DataAccess.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.dataaccess\\scholarly.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9D582DF1-7EDF-4780-976E-15F34BC4CDC6}|Scholarly.DataAccess\\Scholarly.DataAccess.csproj|solutionrelative:scholarly.dataaccess\\scholarly.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholarly-git\\backend\\scholarly.webapi\\helper\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|d:\\workingfolder\\scholary-github\\backend\\scholarly.webapi\\helper\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E429F907-8F3E-432A-8A72-C0600B34CB98}|Scholarly.WebAPI\\Scholarly.WebAPI.csproj|solutionrelative:scholarly.webapi\\helper\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Bookmark",
@@ -129,12 +129,16 @@
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": ".gitignore.md",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\.gitignore.md",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\.gitignore.md",
               "RelativeDocumentMoniker": ".gitignore.md",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\.gitignore.md",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\.gitignore.md",
               "RelativeToolTip": ".gitignore.md",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
@@ -142,16 +146,12 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "PDFHelper.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\PDFHelper.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\PDFHelper.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Helper\\PDFHelper.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\PDFHelper.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\PDFHelper.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Helper\\PDFHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,9 +161,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FileDetail.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\FileDetail.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\FileDetail.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Model\\FileDetail.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\FileDetail.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\FileDetail.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Model\\FileDetail.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,9 +173,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "GroupEmails.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\GroupEmails.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\GroupEmails.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Model\\GroupEmails.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\GroupEmails.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\GroupEmails.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Model\\GroupEmails.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,9 +185,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Groups.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\Groups.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\Groups.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Model\\Groups.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\Groups.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\Groups.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Model\\Groups.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,9 +197,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "tbl_users.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\tbl_users.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\tbl_users.cs",
               "RelativeDocumentMoniker": "Scholarly.Entity\\tbl_users.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\tbl_users.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\tbl_users.cs",
               "RelativeToolTip": "Scholarly.Entity\\tbl_users.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAcwE8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -209,9 +209,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "tbl_groups_emails.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\tbl_groups_emails.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\tbl_groups_emails.cs",
               "RelativeDocumentMoniker": "Scholarly.Entity\\tbl_groups_emails.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\tbl_groups_emails.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\tbl_groups_emails.cs",
               "RelativeToolTip": "Scholarly.Entity\\tbl_groups_emails.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -221,9 +221,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "UserDa.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\DataAccess\\UserDa.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\DataAccess\\UserDa.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\DataAccess\\UserDa.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\DataAccess\\UserDa.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\DataAccess\\UserDa.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\DataAccess\\UserDa.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAswCEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -234,9 +234,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Common.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\Common.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\Common.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Helper\\Common.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\Common.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\Common.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Helper\\Common.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAkwBYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -278,9 +278,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "TBL_USER_SPECIALIZATION.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\TBL_USER_SPECIALIZATION.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\TBL_USER_SPECIALIZATION.cs",
               "RelativeDocumentMoniker": "Scholarly.Entity\\TBL_USER_SPECIALIZATION.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\TBL_USER_SPECIALIZATION.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\TBL_USER_SPECIALIZATION.cs",
               "RelativeToolTip": "Scholarly.Entity\\TBL_USER_SPECIALIZATION.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,22 +290,21 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserLogin.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\UserLogin.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\UserLogin.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Model\\UserLogin.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\UserLogin.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\UserLogin.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Model\\UserLogin.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T05:04:25.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T05:04:25.144Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "PDFController.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Controllers\\PDFController.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Controllers\\PDFController.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Controllers\\PDFController.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Controllers\\PDFController.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Controllers\\PDFController.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Controllers\\PDFController.cs",
               "ViewState": "AQIAAHYBAAAAAAAAAAAmwLYBAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -316,9 +315,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "tbl_groups.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\tbl_groups.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\tbl_groups.cs",
               "RelativeDocumentMoniker": "Scholarly.Entity\\tbl_groups.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\tbl_groups.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\tbl_groups.cs",
               "RelativeToolTip": "Scholarly.Entity\\tbl_groups.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAgwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -339,9 +338,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "IJWTAuthenticationManager.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\IJWTAuthenticationManager.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\IJWTAuthenticationManager.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Helper\\IJWTAuthenticationManager.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\IJWTAuthenticationManager.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\IJWTAuthenticationManager.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Helper\\IJWTAuthenticationManager.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAewCEAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -351,9 +350,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Scholarly.WebAPI.csproj",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
               "RelativeToolTip": "Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -363,9 +362,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAYwCAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,13 +372,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Program.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Program.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Program.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Program.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Program.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAIAwwGcAAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAIAwwGIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T08:08:06.895Z",
               "EditorCaption": ""
@@ -388,9 +387,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\User.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\User.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Model\\User.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Model\\User.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Model\\User.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Model\\User.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAYwBAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -400,9 +399,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\PasswordHasher.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Helper\\PasswordHasher.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Helper\\PasswordHasher.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Helper\\PasswordHasher.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Helper\\PasswordHasher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -412,9 +411,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Scholarly.DataAccess.csproj",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
               "RelativeDocumentMoniker": "Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
               "RelativeToolTip": "Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
               "ViewState": "AQIAAAcAAAAAAAAAAABBwA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -424,9 +423,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\appsettings.json",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\appsettings.json",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\appsettings.json",
               "RelativeToolTip": "Scholarly.WebAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -436,9 +435,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "SWBDBContext.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\SWBDBContext.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\SWBDBContext.cs",
               "RelativeDocumentMoniker": "Scholarly.DataAccess\\SWBDBContext.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\SWBDBContext.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\SWBDBContext.cs",
               "RelativeToolTip": "Scholarly.DataAccess\\SWBDBContext.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -448,9 +447,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Scholarly.WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Scholarly.WebAPI\\Controllers\\UserController.cs",
               "ViewState": "AQIAALUAAAAAAAAAAAAowMMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

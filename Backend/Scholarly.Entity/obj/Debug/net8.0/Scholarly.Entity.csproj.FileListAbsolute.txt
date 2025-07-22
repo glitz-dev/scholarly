@@ -31,3 +31,15 @@ D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholar
 D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\refint\Scholarly.Entity.dll
 D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.pdb
 D:\WorkingFolder\Scholarly-GIT\Backend\Scholarly.Entity\obj\Debug\net8.0\ref\Scholarly.Entity.dll
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.deps.json
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.dll
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\bin\Debug\net8.0\Scholarly.Entity.pdb
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfoInputs.cache
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.AssemblyInfo.cs
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.csproj.CoreCompileInputs.cache
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.sourcelink.json
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.dll
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\refint\Scholarly.Entity.dll
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\Scholarly.Entity.pdb
+D:\WorkingFolder\Scholary-github\Backend\Scholarly.Entity\obj\Debug\net8.0\ref\Scholarly.Entity.dll

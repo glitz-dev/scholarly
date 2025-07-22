@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NpHreAlfWLg=",
+  "dgSpecHash": "v+crMUTIpXo=",
   "success": true,
-  "projectFilePath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
+  "projectFilePath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GLITZ-2\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.11\\microsoft.entityframeworkcore.8.0.11.nupkg.sha512",
     "C:\\Users\\GLITZ-2\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.11\\microsoft.entityframeworkcore.abstractions.8.0.11.nupkg.sha512",

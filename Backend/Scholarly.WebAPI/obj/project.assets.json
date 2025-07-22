@@ -3121,11 +3121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
+      "projectUniqueName": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
       "projectName": "Scholarly.WebAPI",
-      "projectPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
+      "projectPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\Scholarly.WebAPI.csproj",
       "packagesPath": "C:\\Users\\GLITZ-2\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.WebAPI\\obj\\",
+      "outputPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GLITZ-2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3143,11 +3143,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj": {
-              "projectPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj"
+            "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj": {
+              "projectPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.DataAccess\\Scholarly.DataAccess.csproj"
             },
-            "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj": {
-              "projectPath": "D:\\WorkingFolder\\Scholarly-GIT\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj"
+            "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj": {
+              "projectPath": "D:\\WorkingFolder\\Scholary-github\\Backend\\Scholarly.Entity\\Scholarly.Entity.csproj"
             }
           }
         }
