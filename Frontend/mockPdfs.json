@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1744906597242",
+    "article": "Computer Science",
+    "pubmedid": "33",
+    "author": "antony deol",
+    "doi": "32",
+    "userId": "26",
+    "pdfFile": "/uploads/1744906597239-MI-AKS-IPC-10 A.pdf",
+    "createdAt": "2025-04-17T16:16:37.242Z"
+  },
+  {
+    "id": "1744906628989",
+    "article": "virus prevention methods",
+    "pubmedid": "11",
+    "author": "antony deol",
+    "doi": "21",
+    "userId": "26",
+    "pdfFile": "/uploads/1744906628984-MI-AKS-IPC-10ABS.pdf",
+    "createdAt": "2025-04-17T16:17:08.989Z"
+  },
+  {
+    "id": "1744906648506",
+    "article": "Computer graphics",
+    "pubmedid": "111",
+    "author": "antony deol",
+    "doi": "100",
+    "userId": "26",
+    "pdfFile": "/uploads/1744906648500-MI-AKS-IPC-10 ABS.pdf",
+    "createdAt": "2025-04-17T16:17:28.506Z"
+  },
+  {
+    "id": "1744906681171",
+    "article": "Super computers",
+    "pubmedid": "55",
+    "author": "antony deol",
+    "doi": "54",
+    "userId": "26",
+    "pdfFile": "/uploads/1744906681168-MI-AKS-IPC-10 ABS.pdf",
+    "createdAt": "2025-04-17T16:18:01.171Z"
+  },
+  {
+    "id": "1752012720363",
+    "article": "Super computers",
+    "pubmedid": "12",
+    "author": "sanjay",
+    "doi": "32",
+    "userId": "23",
+    "pdfFile": "/uploads/1752012720355-Research Papers in the Sciences.pdf",
+    "createdAt": "2025-07-08T22:12:00.363Z"
+  },
+  {
+    "id": "1751530004606",
+    "article": "Marathoon",
+    "pubmedid": "22",
+    "author": "sanjay",
+    "doi": "11",
+    "userId": "23",
+    "url": "",
+    "pdfFile": "/uploads/1751530004582-Final Report _ OASIS 6.0 CBSE.pdf",
+    "createdAt": "2025-07-03T08:06:44.610Z"
+  },
+  {
+    "id": "1753770642000",
+    "article": "Computer Science",
+    "pubmedid": "3343",
+    "author": "sreekumar",
+    "doi": "211",
+    "userId": "37",
+    "url": "",
+    "pdfFile": "/uploads/1753770641988-Research Papers in the Sciences.pdf",
+    "createdAt": "2025-07-29T06:30:42.001Z"
+  }
+]
